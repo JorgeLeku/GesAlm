@@ -7,6 +7,7 @@
 
 //p1
 //
+#include <stdio.h>
 int main() {
 int edad;
 edad=54;
