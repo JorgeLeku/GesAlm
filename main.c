@@ -9,10 +9,24 @@
 //
 #include <stdio.h>
 int main() {
-int edad;
-edad=54;
-printf ("La edad es %d años\n", edad);
-printf ("Gracias por utilizar este programa del curso aprenderaprogramar.com");
+
+	int menu;
+
+	printf("Elige una de estas opciones: ");
+	printf("1. Localizar lote ");
+	printf("2. Almacenar lote ");
+	printf("3. Vender lote ");
+	printf("4. Administración ");
+
+	scanf("%i", &menu);
+
+	if(menu == 1){
+		printf("Elige la categoría del lote que busca: ")
+		printf("MENAJE")
+		prinf("")
+	}
+
+
 return 0;
 }
 
