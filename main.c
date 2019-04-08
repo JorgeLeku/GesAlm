@@ -7,16 +7,33 @@
 
 //p1
 //
-#include <Producto.h>
+
+
+// Falta la base de datos por lo cual el programa no funcionara. Primero el array guardado se creara pensando en el tamaño del almacen, es decir la empresa nos ha dado la cantidad de estanterias que contiene el almacen, estas estanterias tendran todas el mismo tamanyo y tendran tres pisos
+
+#include "Producto.h"
+#include "Operaciones.h"
 #include <stdio.h>
 int main() {
 
+	char *guardado [20][6][3];
+	Producto producto [50];
+	for (int var = 0; var < 20; ++var) {
+		for (int ar = 0; ar < 6; ++ar) {
+			for (int r = 0; r < 3; ++r) {
+				for (int a = 0; a < 50; ++a) {
+					if(producto [a].estanteria == var && producto [a].fila==ar && producto [a].piso ==r){
+						guardado[var][ar][r]=producto [a].nombre;
+					}
+				}
+			}
+		}
+	}
 
-	int menu,categoria,tipo;
 
 
 
-	int menu;
+
 
 	int menu,categoria, tipo;
 
