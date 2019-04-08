@@ -7,10 +7,21 @@
 
 //p1
 //
+//#include <Posicion.h>
 #include <stdio.h>
 int main() {
 
+<<<<<<< HEAD
 	int menu,categoria,tipo;
+=======
+
+	char a [50] [50] [50] [];//el tamaño del array sera cogido de la bd
+	a[1][1][1]="adfsa";
+	printf("%s \n", a [1][1][1]);
+	int menu;
+
+	int menu,categoria, tipo;
+>>>>>>> branch 'master' of https://github.com/JorgeLeku/GesAlm.git
 
 
 	printf("Elige una de estas opciones: \n");
@@ -23,8 +34,13 @@ int main() {
 
 	if(menu == 1){
 		printf("Elige la categoría del lote que busca: \n");
+<<<<<<< HEAD
 		printf("1. OLLAS \n");
 		printf("2. SARTENES \n")
+=======
+		printf("1. OLLAS A PRESION \n");
+		printf("2. SARTENES \n");
+>>>>>>> branch 'master' of https://github.com/JorgeLeku/GesAlm.git
 		printf("3. MOLDES \n");
 		printf("4. PINZAS \n");
 		printf("5. HIGIENE \n");
@@ -211,7 +227,7 @@ int main() {
 	if(menu == 2){
 		printf("Elige la categoría del lote que desea almacenar: \n");
 		printf("1. OLLAS \n");
-		printf("2. SARTENES \n")
+		printf("2. SARTENES \n");
 		printf("3. MOLDES \n");
 		printf("4. PINZAS \n");
 		printf("5. HIGIENE \n");
@@ -396,7 +412,7 @@ int main() {
 	if(menu == 3){
 		printf("Elige la categoría del lote que desea vender: \n");
 		printf("1. OLLAS \n");
-		printf("2. SARTENES \n")
+		printf("2. SARTENES \n");
 		printf("3. MOLDES \n");
 		printf("4. PINZAS \n");
 		printf("5. HIGIENE \n");
@@ -579,7 +595,7 @@ int main() {
 	}
 	}
 	if(menu == 4){
-		printf("Hola gerente, introduzca su contraseña: \n")
+		printf("Hola gerente, introduzca su contraseña: \n");
 	}
 
 
