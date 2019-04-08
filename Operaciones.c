@@ -6,7 +6,9 @@
  */
 
 #include <stdio.h>
-
+void venta (char x[3][3][3], int n_E, int n_F, int n_C,char nombre[]){
+	//AQUI SE ELIMINARAN LAS FILAS DE LA BASE DE DATOS
+}
 int busquedaEstanteriaVacia (char x[3][3][3], int n_E, int n_F, int n_C /*char nombre[]*/){
 	int a, b, c;
 	a =0;
