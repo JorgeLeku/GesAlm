@@ -7,7 +7,7 @@
 
 //p1
 //
-//#include <Posicion.h>
+#include <Producto.h>
 #include <stdio.h>
 int main() {
 
