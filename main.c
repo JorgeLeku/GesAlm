@@ -9,7 +9,7 @@
 //
 
 
-// Falta la base de datos por lo cual el programa no funcionara. Primero el array guardado se creara pensando en el tamaño del almacen, es decir la empresa nos ha dado la cantidad de estanterias que contiene el almacen, estas estanterias tendran todas el mismo tamanyo y tendran tres pisos
+// Falta la base de datos por lo cual el programa no funcionara. Primero el array guardado se creara pensando en el tamaï¿½o del almacen, es decir la empresa nos ha dado la cantidad de estanterias que contiene el almacen, estas estanterias tendran todas el mismo tamanyo y tendran tres pisos
 
 #include "Producto.h"
 #include "Operaciones.h"
@@ -33,7 +33,7 @@ int main() {
 
 
 
-
+//p1
 
 	int menu,categoria, tipo;
 
@@ -42,12 +42,12 @@ int main() {
 	printf("1. Localizar lote \n");
 	printf("2. Almacenar lote \n");
 	printf("3. Vender lote \n");
-	printf("4. Administración \n");
+	printf("4. Administraciï¿½n \n");
 
 	scanf("%i", &menu);
 
 	if(menu == 1){
-		printf("Elige la categoría del lote que busca: \n");
+		printf("Elige la categorï¿½a del lote que busca: \n");
 		printf("1. OLLAS A PRESION \n");
 		printf("2. SARTENES \n");
 		printf("3. MOLDES \n");
@@ -62,7 +62,7 @@ int main() {
 		scanf("%i", &categoria);
 
 		switch(categoria){
-		case 1: printf("¿Que tipo de olla busca? \n");
+		case 1: printf("ï¿½Que tipo de olla busca? \n");
 				printf("1. MASTER \n");
 				printf("2. CHEF \n");
 				printf("3. CHEF LUXE \n");
@@ -77,11 +77,11 @@ int main() {
 				case 4: printf("La olla robust se localiza en A.2.1 \n");break;
 				case 5: printf("La olla classic se localiza en A.2.2 \n");break;
 				case 6: printf("La olla pro-classic se localiza en A.2.3 \n");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 
 				}
 		break;
-		case 2: printf("¿Que tipo de sarten busca? \n");
+		case 2: printf("ï¿½Que tipo de sarten busca? \n");
 				printf("1. TRIMETAL \n");
 				printf("2. CHEF INOX \n");
 				printf("3. CHEF TRICAPA \n");
@@ -100,11 +100,11 @@ int main() {
 				case 6: printf("La sarten aluminio se localiza en B.2.3 \n");break;
 				case 7: printf("La sarten grill se localiza en B.3.1 \n");break;
 				case 8: printf("La sarten home se localiza en B.3.2 \n");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 
 				}
 		break;
-		case 3: printf("¿Que tipo de moldes busca? \n");
+		case 3: printf("ï¿½Que tipo de moldes busca? \n");
 				printf("1. ALUMINIO \n");
 				printf("2. ACERO \n");
 				printf("3. SILICONA \n");
@@ -115,11 +115,11 @@ int main() {
 				case 2: printf("El molde de acero se localiza en C.1.2 \n");break;
 				case 3: printf("El molde de silicona se localiza en C.1.3 \n ");break;
 				case 4: printf("El molde de bombom polystyreno se localiza en C.2.1 \n");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 
 				}
 		break;
-		case 4: printf("¿Que tipo de pinzas busca? \n");
+		case 4: printf("ï¿½Que tipo de pinzas busca? \n");
 				printf("1. HIELO \n");
 				printf("2. REPOSTERIA \n");
 				printf("3. ENSALADA \n");
@@ -132,11 +132,11 @@ int main() {
 				case 3: printf("Las pinzas de ensalada se localizan en D.1.3 \n ");break;
 				case 4: printf("Las pinzas de madera se localizan en D.2.1 \n");break;
 				case 5: printf("Las pinzas acrilicas se localizan en D.2.2 \n");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 
 				}
 		break;
-		case 5: printf("¿Que tipo de objeto de higiene busca? \n");
+		case 5: printf("ï¿½Que tipo de objeto de higiene busca? \n");
 				printf("1. INDICADORES INOX \n");
 				printf("2. CENICERO \n");
 				printf("3. SECADOR \n");
@@ -145,10 +145,10 @@ int main() {
 				case 1: printf("Los indicadores inox se localizan en E.1.1 \n");break;
 				case 2: printf("El cenicero se localiza en E.1.2 \n");break;
 				case 3: printf("El secador se localiza en E.1.3 \n ");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 				}
 		break;
-		case 6: printf("¿Que tipo de bateria de cocina busca?  \n");
+		case 6: printf("ï¿½Que tipo de bateria de cocina busca?  \n");
 				printf("1. STILO \n");
 				printf("2. FOODIE \n");
 				printf("3. ANODIZED \n");
@@ -167,11 +167,11 @@ int main() {
 				case 6: printf("Las baterias de cocina white se localizan en F.2.3 \n");break;
 				case 7: printf("Las baterias de cocina black se localizan en F.3.1 \n");break;
 				case 8: printf("Las baterias de cocina vitrocolor se localizan en F.3.2 \n");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 
 				}
 		break;
-		case 7: printf("¿Que tipo de paellera buscas? \n");
+		case 7: printf("ï¿½Que tipo de paellera buscas? \n");
 				printf("1. ACERO \n");
 				printf("2. CHEF INOX \n");
 				printf("3. VALENCIANAS \n");
@@ -184,11 +184,11 @@ int main() {
 				case 3: printf("Las paelleras valencianas se localizan en G.1.3 \n ");break;
 				case 4: printf("Las paellera esmaltado se localizan en G.2.1 \n");break;
 				case 5: printf("Las paelleras aluminio se localizan en G.2.2 \n");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 
 				}
 		break;
-		case 8: printf("¿Que tipo de cuchillo buscas? \n");
+		case 8: printf("ï¿½Que tipo de cuchillo buscas? \n");
 				printf("1. FORJADOS \n");
 				printf("2. CERAMICOS \n");
 				printf("3. ZIRCONIA \n");
@@ -197,22 +197,22 @@ int main() {
 				case 1: printf("Los cuchillos forjados se localizan en H.1.1 \n");break;
 				case 2: printf("Los cuchillos ceramicos se localizan en H.1.2 \n");break;
 				case 3: printf("Los cuchillos zirconia se localizan en H.1.3 \n ");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 
 				}
 		break;
-		case 9: printf("¿Que tipo de cubiertos busca? \n");
+		case 9: printf("ï¿½Que tipo de cubiertos busca? \n");
 				printf("1. CUBERTERIA HOTEL \n");
 				printf("2.CUBERTERIA ARIES \n");
 				scanf("%i", &tipo);
 				switch(tipo){
 				case 1: printf("La cuberteria de hotel se localiza en I.1.1 \n");break;
 				case 2: printf("La cuberteria aries se localiza en I.1.2 \n");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 
 				}
 		break;
-		case 10:printf("¿Que tipo de cafeteras busca? \n");
+		case 10:printf("ï¿½Que tipo de cafeteras busca? \n");
 				printf("1. CLASSIC \n");
 				printf("2. LUXE \n");
 				printf("3. ZENIT \n");
@@ -221,7 +221,7 @@ int main() {
 				case 1: printf("Las cafeteras classic se localizan en G.1.1 \n");break;
 				case 2: printf("Las cafeteras luxe se localizan en G.1.2 \n");break;
 				case 3: printf("Las cafeteras zenit se localizan en G.1.3 \n ");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 
 				}
 		break;
@@ -234,7 +234,7 @@ int main() {
 
 
 	if(menu == 2){
-		printf("Elige la categoría del lote que desea almacenar: \n");
+		printf("Elige la categorï¿½a del lote que desea almacenar: \n");
 		printf("1. OLLAS \n");
 		printf("2. SARTENES \n");
 		printf("3. MOLDES \n");
@@ -249,7 +249,7 @@ int main() {
 		scanf("%i", &categoria);
 
 		switch(categoria){
-		case 1: printf("Las ollas se almacenan en la estantería A, para más precisión indique el tipo de olla \n");
+		case 1: printf("Las ollas se almacenan en la estanterï¿½a A, para mï¿½s precisiï¿½n indique el tipo de olla \n");
 				printf("1. MASTER \n");
 				printf("2. CHEF \n");
 				printf("3. CHEF LUXE \n");
@@ -264,11 +264,11 @@ int main() {
 				case 4: printf("La olla robust se almacena en A.2.1 \n");break;
 				case 5: printf("La olla classic se almacena en A.2.2 \n");break;
 				case 6: printf("La olla pro-classic se almacena en A.2.3 \n");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 
 				}
 		break;
-		case 2: printf("Las sartenes se almacenan en la estantería B, para más precisión indique el tipo de sarten \n");
+		case 2: printf("Las sartenes se almacenan en la estanterï¿½a B, para mï¿½s precisiï¿½n indique el tipo de sarten \n");
 				printf("1. TRIMETAL \n");
 				printf("2. CHEF INOX \n");
 				printf("3. CHEF TRICAPA \n");
@@ -287,11 +287,11 @@ int main() {
 				case 6: printf("La sarten aluminio se almacena en B.2.3 \n");break;
 				case 7: printf("La sarten grill se almacena en B.3.1 \n");break;
 				case 8: printf("La sarten home se almacena en B.3.2 \n");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 
 				}
 		break;
-		case 3: printf("Los moldes se almacenan en la estantería C, para más precisión indique el tipo de molde \n");
+		case 3: printf("Los moldes se almacenan en la estanterï¿½a C, para mï¿½s precisiï¿½n indique el tipo de molde \n");
 				printf("1. ALUMINIO \n");
 				printf("2. ACERO \n");
 				printf("3. SILICONA \n");
@@ -302,11 +302,11 @@ int main() {
 				case 2: printf("El molde de acero se almacena en C.1.2 \n");break;
 				case 3: printf("El molde de silicona se almacena en C.1.3 \n ");break;
 				case 4: printf("El molde de bombom polystyreno se almacena en C.2.1 \n");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 
 				}
 		break;
-		case 4: printf("Las pinzas se almacenan en la estantería D, para más precisión indique el tipo de pinzas \n");
+		case 4: printf("Las pinzas se almacenan en la estanterï¿½a D, para mï¿½s precisiï¿½n indique el tipo de pinzas \n");
 				printf("1. HIELO \n");
 				printf("2. REPOSTERIA \n");
 				printf("3. ENSALADA \n");
@@ -319,11 +319,11 @@ int main() {
 				case 3: printf("Las pinzas de ensalada se almacenan en D.1.3 \n ");break;
 				case 4: printf("Las pinzas de madera se almacenan en D.2.1 \n");break;
 				case 5: printf("Las pinzas acrilicas se almacenan en D.2.2 \n");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 
 				}
 		break;
-		case 5: printf("Los objetos de higiene se almacenan en la estantería E, para más precisión indique el tipo de objeto de higiene \n");
+		case 5: printf("Los objetos de higiene se almacenan en la estanterï¿½a E, para mï¿½s precisiï¿½n indique el tipo de objeto de higiene \n");
 				printf("1. INDICADORES INOX \n");
 				printf("2. CENICERO \n");
 				printf("3. SECADOR \n");
@@ -332,10 +332,10 @@ int main() {
 				case 1: printf("Los indicadores inox se almacenan en E.1.1 \n");break;
 				case 2: printf("El cenicero se almacena en E.1.2 \n");break;
 				case 3: printf("El secador se almacena en E.1.3 \n ");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 				}
 		break;
-		case 6: printf("Las baterias de cocina se almacenan en la estantería F, para más precisión indique el tipo de bateria de cocina \n");
+		case 6: printf("Las baterias de cocina se almacenan en la estanterï¿½a F, para mï¿½s precisiï¿½n indique el tipo de bateria de cocina \n");
 				printf("1. STILO \n");
 				printf("2. FOODIE \n");
 				printf("3. ANODIZED \n");
@@ -354,11 +354,11 @@ int main() {
 				case 6: printf("Las baterias de cocina white se almacenan en F.2.3 \n");break;
 				case 7: printf("Las baterias de cocina black se almacenan en F.3.1 \n");break;
 				case 8: printf("Las baterias de cocina vitrocolor se almacenan en F.3.2 \n");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 
 				}
 		break;
-		case 7: printf("Las paelleras se almacenan en la estantería G, para más precisión indique el tipo de paellera \n");
+		case 7: printf("Las paelleras se almacenan en la estanterï¿½a G, para mï¿½s precisiï¿½n indique el tipo de paellera \n");
 				printf("1. ACERO \n");
 				printf("2. CHEF INOX \n");
 				printf("3. VALENCIANAS \n");
@@ -371,11 +371,11 @@ int main() {
 				case 3: printf("Las paelleras valencianas se almacenan en G.1.3 \n ");break;
 				case 4: printf("Las paellera esmaltado se almacenan en G.2.1 \n");break;
 				case 5: printf("Las paelleras aluminio se almacenan en G.2.2 \n");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 
 				}
 		break;
-		case 8: printf("Los cuchillos se almacenan en la estantería H, para más precisión indique el tipo de cuchillo \n");
+		case 8: printf("Los cuchillos se almacenan en la estanterï¿½a H, para mï¿½s precisiï¿½n indique el tipo de cuchillo \n");
 				printf("1. FORJADOS \n");
 				printf("2. CERAMICOS \n");
 				printf("3. ZIRCONIA \n");
@@ -384,22 +384,22 @@ int main() {
 				case 1: printf("Los cuchillos forjados se almacenan en H.1.1 \n");break;
 				case 2: printf("Los cuchillos ceramicos se almacenan en H.1.2 \n");break;
 				case 3: printf("Los cuchillos zirconia se almacenan en H.1.3 \n ");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 
 				}
 		break;
-		case 9: printf("Los cubiertos se almacenan en la estantería I, para más precisión indique el tipo de cubierto \n");
+		case 9: printf("Los cubiertos se almacenan en la estanterï¿½a I, para mï¿½s precisiï¿½n indique el tipo de cubierto \n");
 				printf("1. CUBERTERIA HOTEL \n");
 				printf("2.CUBERTERIA ARIES \n");
 				scanf("%i", &tipo);
 				switch(tipo){
 				case 1: printf("La cuberteria de hotel se almacena en I.1.1 \n");break;
 				case 2: printf("La cuberteria aries se almacena en I.1.2 \n");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 
 				}
 		break;
-		case 10:printf("Las cafeteras se almacenan en la estantería G, para más precisión indique el tipo de cafetera \n");
+		case 10:printf("Las cafeteras se almacenan en la estanterï¿½a G, para mï¿½s precisiï¿½n indique el tipo de cafetera \n");
 				printf("1. CLASSIC \n");
 				printf("2. LUXE \n");
 				printf("3. ZENIT \n");
@@ -408,7 +408,7 @@ int main() {
 				case 1: printf("Las cafeteras classic se almacenan en G.1.1 \n");break;
 				case 2: printf("Las cafeteras luxe se almacenan en G.1.2 \n");break;
 				case 3: printf("Las cafeteras zenit se almacenan en G.1.3 \n ");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 
 				}
 		break;
@@ -419,7 +419,7 @@ int main() {
 	}
 
 	if(menu == 3){
-		printf("Elige la categoría del lote que desea vender: \n");
+		printf("Elige la categorï¿½a del lote que desea vender: \n");
 		printf("1. OLLAS \n");
 		printf("2. SARTENES \n");
 		printf("3. MOLDES \n");
@@ -449,7 +449,7 @@ int main() {
 				case 4: printf("Vendida la olla robust \n");break;
 				case 5: printf("Vendida la olla classic \n");break;
 				case 6: printf("Vendida la olla pro-classic \n");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 
 				}
 		break;
@@ -472,7 +472,7 @@ int main() {
 				case 6: printf("Vendida la sarten aluminio \n");break;
 				case 7: printf("Vendida la sarten grill \n");break;
 				case 8: printf("Vendida la sarten home \n");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 
 				}
 		break;
@@ -487,11 +487,11 @@ int main() {
 				case 2: printf("Vendido el molde de acero \n");break;
 				case 3: printf("Vendido el molde de siicona \n ");break;
 				case 4: printf("vendido el molde de bombom polystyreno \n");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 
 				}
 		break;
-		case 4: printf("¿Que tipo de pinzas deseas vender? \n");
+		case 4: printf("ï¿½Que tipo de pinzas deseas vender? \n");
 				printf("1. HIELO \n");
 				printf("2. REPOSTERIA \n");
 				printf("3. ENSALADA \n");
@@ -504,11 +504,11 @@ int main() {
 				case 3: printf("vendidas las pinzas de ensalada \n ");break;
 				case 4: printf("Vendidas las pinzas de madera \n");break;
 				case 5: printf("Vendidas las pinzas acrilicas\n");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 
 				}
 		break;
-		case 5: printf("¿Que objeto de higiene deseas vender? \n");
+		case 5: printf("ï¿½Que objeto de higiene deseas vender? \n");
 				printf("1. INDICADORES INOX \n");
 				printf("2. CENICERO \n");
 				printf("3. SECADOR \n");
@@ -517,10 +517,10 @@ int main() {
 				case 1: printf("Vendidos los indicadores inox \n");break;
 				case 2: printf("Vendido el cenicero \n");break;
 				case 3: printf("Vendido el secador \n ");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 				}
 		break;
-		case 6: printf("¿Que bateria de cocina deseas vender? \n");
+		case 6: printf("ï¿½Que bateria de cocina deseas vender? \n");
 				printf("1. STILO \n");
 				printf("2. FOODIE \n");
 				printf("3. ANODIZED \n");
@@ -539,11 +539,11 @@ int main() {
 				case 6: printf("Vendida la bateria de cocina white \n");break;
 				case 7: printf("Vendida la bateria de cocina black \n");break;
 				case 8: printf("Vendida la bateria de cocina vitrocolor \n");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 
 				}
 		break;
-		case 7: printf("¿Que paellera deseas vender? \n");
+		case 7: printf("ï¿½Que paellera deseas vender? \n");
 				printf("1. ACERO \n");
 				printf("2. CHEF INOX \n");
 				printf("3. VALENCIANAS \n");
@@ -556,11 +556,11 @@ int main() {
 				case 3: printf("Vendida la paellera valenciana \n ");break;
 				case 4: printf("Vendida la paellera con esmaltado \n");break;
 				case 5: printf("Vendida la paellera de aluminio \n");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 
 				}
 		break;
-		case 8: printf("¿Que cuchillo deseas vender? \n");
+		case 8: printf("ï¿½Que cuchillo deseas vender? \n");
 				printf("1. FORJADOS \n");
 				printf("2. CERAMICOS \n");
 				printf("3. ZIRCONIA \n");
@@ -569,22 +569,22 @@ int main() {
 				case 1: printf("Vendido el cuchillo forjado \n");break;
 				case 2: printf("Vendido el cuchillo ceramico \n");break;
 				case 3: printf("Vendido el cuchillo de zirconia \n ");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 
 				}
 		break;
-		case 9: printf("¿Que cuberteria deseas vender? \n");
+		case 9: printf("ï¿½Que cuberteria deseas vender? \n");
 				printf("1. CUBERTERIA HOTEL \n");
 				printf("2.CUBERTERIA ARIES \n");
 				scanf("%i", &tipo);
 				switch(tipo){
 				case 1: printf("Vendida la cuberteria de hotel \n");break;
 				case 2: printf("vendida la cuberteria de aries \n");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 
 				}
 		break;
-		case 10:printf("¿Que cafetera deseas vender? \n");
+		case 10:printf("ï¿½Que cafetera deseas vender? \n");
 				printf("1. CLASSIC \n");
 				printf("2. LUXE \n");
 				printf("3. ZENIT \n");
@@ -593,7 +593,7 @@ int main() {
 				case 1: printf("Vendida cafetera classic \n");break;
 				case 2: printf("Vendida cafetera luxe \n");break;
 				case 3: printf("Vendida cafetera zenit \n ");break;
-				default: printf("El numero introducido no corresponde a ningún tipo \n");
+				default: printf("El numero introducido no corresponde a ningï¿½n tipo \n");
 
 				}
 		break;
@@ -604,7 +604,7 @@ int main() {
 	}
 
 	if(menu == 4){
-		printf("Hola gerente, introduzca su contraseña: \n");
+		printf("Hola gerente, introduzca su contraseï¿½a: \n");
 	}
 
 
